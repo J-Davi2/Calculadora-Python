@@ -34,7 +34,7 @@ igual_pressionado = False #variavel criada, para reconhecer o click do '=', e qu
 while True:
     event, values = janela.read(timeout=1)
     if event == sg.WIN_CLOSED:
-        break   # finalização da calculadora
+        break   # fechando da calculadora
 
     if event == 'C':
         valor_atual = '0'
